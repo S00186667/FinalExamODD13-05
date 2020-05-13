@@ -20,6 +20,8 @@ namespace CarlaMulligan_S00186667
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        List<Phone> phones = new List<Phone>(); 
         public MainWindow()
         {
             InitializeComponent();
@@ -27,6 +29,11 @@ namespace CarlaMulligan_S00186667
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            Phone p1 = new Phone() { Name = "Samsung s20", Price = 500, Operating_System = "Android", OS_Image = "images/android.png", Phone_Image = "images/s20.png" };
+
+            Phone p2 = new Phone() { Name = "iPhone 11", Price = 600, Operating_System = "IOS", OS_Image = "images/apple.png", Phone_Image = "images/iphone11.png" };
+
+
 
         }
 

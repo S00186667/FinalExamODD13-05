@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         Loaded="Window_Loaded">
+
+
+    <Window.Resources>
+
+        <DataTemplate x:Key="listboxTemplate">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Image Source="{Binding OS_Image}" Width="75"/>
+                <Image Source="{Binding Phone_Image}" Width="75"/>
+
+
+            </StackPanel>
+
+        </DataTemplate>
+    </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="86*"/>
@@ -19,10 +34,13 @@
         </Grid.ColumnDefinitions>
 
         <ListBox x:Name="lbxPhones" SelectionChanged="lbxPhones_SelectionChanged" Grid.Row="1" Margin="10"/>
+        
+        
 
         <TextBlock x:Name="tbxPrice" Grid.Column="2" Margin="32,16,38,10"/>
 
-        <ListBox x:Name="lbxImages" Grid.Column="2" Margin="10" Grid.Row="1"/>
+        
+        
 
 
 

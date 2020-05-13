@@ -23,9 +23,9 @@ namespace DataManagement
 
            
 
-                Phone p1 = new Phone() { Name = "Samsung s20", Price = 500, Operating_System = "Android", OS_Image = "images/android.jpg", Phone_Image = "images/s20.jpg" };
+                Phone p1 = new Phone() { Name = "Samsung s20", Price = 500, Operating_System = "Android", OS_Image = "images/android.png", Phone_Image = "images/s20.png" };
 
-                Phone p2 = new Phone() { Name = "iPhone 11", Price = 600, Operating_System = "IOS", OS_Image = "images/apple.jpg", Phone_Image = "images/iphone11.jpg" };
+                Phone p2 = new Phone() { Name = "iPhone 11", Price = 600, Operating_System = "IOS", OS_Image = "images/apple.png", Phone_Image = "images/iphone11.png" };
 
 
                 db.Phones.Add(p1);

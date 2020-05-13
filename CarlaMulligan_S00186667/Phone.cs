@@ -21,13 +21,15 @@ namespace CarlaMulligan_S00186667
         public string Phone_Image { get; set; }
    
 
-       /* public void IncreasePrice(decimal Pvalue)
+        public void IncreasePrice(decimal Pvalue)
         {
 
             Pvalue = (Pvalue + 100) / 100 * Price;
 
 
-        }*/
+        }
+
+       
 
     }
 

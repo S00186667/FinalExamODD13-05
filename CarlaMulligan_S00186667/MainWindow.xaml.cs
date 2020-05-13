@@ -24,5 +24,10 @@ namespace CarlaMulligan_S00186667
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
 using System.Security.Policy;
@@ -10,6 +11,8 @@ namespace CarlaMulligan_S00186667
 {
     public class Phone
     {
+
+        [Key]
         public string Name { get; set; }
 
         public int Price { get; set; }

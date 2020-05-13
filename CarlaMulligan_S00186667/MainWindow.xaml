@@ -15,7 +15,6 @@
 
         <DataTemplate x:Key="listboxTemplate">
             <StackPanel Orientation="Horizontal" Margin="5">
-                <Image Source="{Binding OS_Image}" Width="75"/>
                 <Image Source="{Binding Phone_Image}" Width="75"/>
 
 

@@ -32,10 +32,19 @@ namespace CarlaMulligan_S00186667
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
+
+            //selecting phone name
             var query = from n in db.Phones
                         select n.Name;
 
-            lbxPhones.ItemsSource = query.ToList(); 
+
+            //selecting images
+            lbxPhones.ItemsSource = query.ToList();
+
+            var images = from i in db.Phones
+                         select i.OS_Image;
+
+             
 
 
         }
@@ -58,6 +67,8 @@ namespace CarlaMulligan_S00186667
                 }
             }
 
+
+            //selecting the price
             var query = from p in db.Phones
                         select p.Price;
 

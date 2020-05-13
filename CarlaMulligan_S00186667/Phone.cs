@@ -29,7 +29,12 @@ namespace CarlaMulligan_S00186667
 
         }
 
-       
+        public override string ToString()
+        {
+            return string.Format("{0}", Name); 
+        }
+
+
 
     }
 

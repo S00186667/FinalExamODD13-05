@@ -21,7 +21,7 @@
 
         </DataTemplate>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="86*"/>
@@ -34,13 +34,16 @@
         </Grid.ColumnDefinitions>
 
         <ListBox x:Name="lbxPhones" SelectionChanged="lbxPhones_SelectionChanged" Grid.Row="1" Margin="10"/>
-        
-        
+
+
 
         <TextBlock x:Name="tbxPrice" Grid.Column="2" Margin="32,16,38,10"/>
 
-        
-        
+        <ListBox x:Name="lbxImages" HorizontalAlignment="Right" Height="240" Margin="0,0,33,23" VerticalAlignment="Bottom" Width="266"
+                 ItemTemplate="{StaticResource listboxTemplate}" Grid.Row="1" Grid.Column="2"/>
+
+
+
 
 
 

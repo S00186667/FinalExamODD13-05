@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Name : Carla Mulligan 
+ * Student Number: S00186667
+ * Date: 13/05/2020
+ * Subject: Final ODD Exam Sem2
+ * */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
@@ -12,7 +18,7 @@ namespace CarlaMulligan_S00186667
     public class Phone
     {
 
-        [Key]
+        [Key] // needed to use this key to get the database to work
         public string Name { get; set; }
 
         public int Price { get; set; }

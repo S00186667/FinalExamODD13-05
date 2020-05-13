@@ -1,4 +1,12 @@
-﻿using System;
+﻿
+/*
+ * Name : Carla Mulligan 
+ * Student Number: S00186667
+ * Date: 13/05/2020
+ * Subject: Final ODD Exam Sem2
+ * */
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CarlaMulligan_S00186667; 
 
